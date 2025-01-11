@@ -76,7 +76,7 @@ cd Yolov5_Player_tracking
 2. Run the script:
 
 ```bash
-python main.py
+Yolo.py
 ```
 
 ### Application Features:
