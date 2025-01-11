@@ -10,14 +10,14 @@ This project utilizes YOLOv5, a state-of-the-art object detection model, to trac
 - Automatically detects and tracks players in a football video using YOLOv5.
 - Assigns a unique ID to each player based on spatial proximity.
 
-### Interactive GUI:
-- User-friendly Tkinter-based interface.
-- Allows the user to input the ID of a player to visualize their movements.
-
 ### Player Movement Heatmap:
 - Generates a heatmap for a selected player based on their positions during the game.
 - Superimposes the heatmap on a football field image for better visualization.
 - Dynamically updates the heatmap as the video progresses.
+
+### Interactive GUI:
+- User-friendly Tkinter-based interface.
+- Allows the user to input the ID of a player to visualize their movements.
 
 ---
 
@@ -51,8 +51,8 @@ The application uses the `yolov5s` model from the Ultralytics YOLOv5 repository.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/yolo-player-tracking.git
-cd yolo-player-tracking
+git clone https://github.com/engyelsarta/Yolov5_Player_tracking.git
+cd Yolov5_Player_tracking
 ```
 
 ### Prepare Video and Field Image
